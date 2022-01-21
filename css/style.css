@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+.panda-bg-info {
+  background-color: #fceae8;
+}
+.categories img {
+  width: 100px;
+}
+.panda-btn-buy-now {
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff4b92 100%);
+  color: white;
+  border-radius: 8px;
+  padding: 12px 30px;
+  border: none;
+}
