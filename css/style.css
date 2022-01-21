@@ -14,23 +14,111 @@ h5,
 h6 {
   font-family: "Poppins", sans-serif;
 }
+
+img {
+  width: 100%;
+}
 .panda-bg-info {
   background-color: #fceae8;
 }
 .categories img {
   width: 100px;
 }
-.panda-btn-buy-now {
-  background-image: linear-gradient(to bottom, #ff589b 0%, #ff4b92 100%);
-  color: white;
-  border-radius: 8px;
-  padding: 12px 30px;
-  border: none;
-}
 
 input.form-control.me-2 {
   background-color: #f1f1f1;
   border-radius: 20px;
-  text-align: right;
   width: 350px;
+}
+
+.search-box {
+  position: relative;
+}
+
+.search-box i {
+  position: absolute;
+  text-align: right;
+  color: #6c757d;
+  margin-left: 310px;
+}
+
+.panda-btn {
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+  border-radius: 6px;
+  color: white;
+  border-radius: 8px;
+  padding: 12px 30px;
+  border: none;
+  transition: 0.3s;
+}
+.panda-btn i {
+  margin-left: 5px;
+}
+
+.panda-btn:hover {
+  background: linear-gradient(180deg, #ff136f 99.99%, #ff589b -0.01%);
+  color: aliceblue;
+}
+
+.btn-black {
+  background-color: #1f1f1f;
+  border-radius: 6px;
+  color: white;
+  border-radius: 8px;
+  padding: 12px 30px;
+  border: none;
+  transition: 0.3s;
+}
+.btn-black:hover {
+  color: burlywood;
+}
+.carousel-custom {
+  background-color: #feeae9;
+  border-radius: 20px;
+}
+
+.carousel-custom h1 {
+  font-size: 55px;
+  font-weight: 700;
+  color: #1f1f1f;
+}
+
+.carousel-custom h2 {
+  color: #ff136f;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+/* Categoreis CSS */
+
+.categories h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #1f1f1f;
+}
+
+.categories-single-item h2 {
+  font-size: 36px;
+  color: white;
+  font-weight: 500;
+}
+
+.watch {
+  background: linear-gradient(152.07deg, #ff9c35 1.47%, #ffd019 97.17%);
+  border-radius: 10px;
+}
+
+.bag {
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+  border-radius: 10px;
+}
+
+.shoes {
+  background: linear-gradient(170.41deg, #4289ff -10.89%, #3f07f8 92.77%);
+  border-radius: 10px;
+}
+
+.subscribe-area {
+  background-color: #fff2f1;
+  height: 300px;
 }
